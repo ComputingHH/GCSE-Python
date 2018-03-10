@@ -1,1 +1,23 @@
+proverb = "A picture's worth a thousand words"
+proverbImage = proverb.replace("A picture's", "An image is")
+FirstO = proverb.index(o)
+proverbUpper = proverb.uppercase()
+len(proverb)
 
+#Just imagine I printed all of them 
+raius = input("Enter radius: ")
+area = 3.14 * radius**2
+circum = 3.14 * 2 * radius
+print ("area is " + str(area))
+print ("circumfrence is " + str(circum))
+
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+
+sum = num1 + num2
+sumround = round(sum, 2)
+print(str(sumround))
+
+product = num1 * num2
+productround = round(product, 3)
+print (str(productround))
