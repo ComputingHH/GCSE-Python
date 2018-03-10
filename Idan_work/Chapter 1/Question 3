@@ -3,4 +3,4 @@ player = 'Davina'
 triangle_height = 4.5
 triangle_base = 6
 triangle_area = 0.5 * (triangle_base * triangle_height)
-print ('The area is: ' + triangle_area)
+print ('The area is: ' + str(triangle_area))
