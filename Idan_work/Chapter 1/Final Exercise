@@ -1,0 +1,17 @@
+fave_food = input("What is your favourite food? ")
+fave_colour = input("What is you favourite colour? ")
+print ("Your favourite food is " + fave_food + " and your favourite colour is " + fave_colour)
+print("Your favourtie food is ", fave_food, " and your favourite colour is ", fave_colour)
+
+name = input("Enter your name: ")
+telephone = input("Enter your number: ")
+print ("Your number is " + telephone + "\n\n your name is " + name)
+print ("Your name is ", name, "\t your number is ", telephone)
+
+int_division =  40 // 11
+remainder = 40 % 11
+to_power_of = 2 ** 3
+bolean_1 = "three" > "two"
+bolean_2 = "abc" < "ABC"
+bolean_3 = 1 <= 4 and 7<=7
+bolean_4 = 'fred' != "Fred"
