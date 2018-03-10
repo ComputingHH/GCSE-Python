@@ -1,0 +1,6 @@
+statement_1 = print("More pain, more gain.")
+statement_2 = print("That's true!")
+statement_3 = print("Pelham " + "123")
+statement_4 = print("How will this",
+                    "statement",
+                    "be printed?"
