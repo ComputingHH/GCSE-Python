@@ -1,0 +1,4 @@
+counter += 1
+house_price *= 2
+hits -= penalty 
+totalCostMeal /= 3
