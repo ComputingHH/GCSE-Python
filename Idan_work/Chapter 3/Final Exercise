@@ -1,0 +1,117 @@
+#1
+
+length = input("Please enter length: ")
+width = input("Please enter a width: ")
+
+Area = float(length) * float(width)
+Arearound = round(Area, 2)
+
+if float(length) == float(width):
+  print("This is a square of area " + str(Arearound))
+else:
+  print("This is a rectangle of area " + str(Arearound))
+
+#2
+print("Menu")
+print("1. Music")
+print("2. History")
+print("3. Design and Technology")
+print("4. Exit")
+
+Choice = input("Please enter your choice: ")
+
+choice = int(Choice)
+
+if choice == 1:
+  print("You chose Music")
+elif choice == 2:
+  print("You chose History")
+elif choice == 3:
+  print("You chose D & T")
+elif choice == 4:
+  print("Goodbye")
+else:
+  print("error")
+  
+#3
+import random
+
+Dice1 = random.randint(1, 6)
+Dice2 = random.randint(1, 6)
+
+print(str(Dice1))
+print(str(Dice2))
+
+if Dice1 == Dice2:
+  summ = 2*(Dice1 + Dice2)
+  print(str(summ))
+  print("You threw a double")
+else:
+  summ = Dice1 + Dice2
+  print(str(summ))
+  
+#4
+
+Value = input("input value of goods: ")
+
+value = float(Value)
+
+if value >= 200:
+  discount = 0.1
+  print("You got a 10% discount")
+  summ = value - (value * discount)
+  print("You owe " + str(summ))
+elif value >= 100 and value < 200:
+  discount = 0.05
+  print("You got a 5% discount")
+  summ = value - (value * discount)
+  print("You owe " + str(summ))
+ 
+#5 
+import time
+
+Hours = input("Input amount of hours you want to stay: ")
+currenttime = time.time()
+currenttimeformated = time.ctime()
+
+if int(Hours) <= 2:
+  expireytime = currenttime + 60 * 120
+  expireytimeformated = time.ctime(expireytime)
+  print("Time now: " + currenttimeformated)
+  print("Expires: " + expireytimeformated)
+  charge = 3.50
+  print("charge: " + str(charge))
+elif int(Hours) <= 4:
+  expireytime = currenttime + 60 * 240
+  expireytimeformated = time.ctime(expireytime)
+  print("Time now: " + currenttimeformated)
+  print("Expires: " + expireytimeformated)
+  charge = 4.00
+  print("charge: " + str(charge))
+elif int(Hours) <= 12:
+  expireytime = currenttime + 60 * 720
+  expireytimeformated = time.ctime(expireytime)
+  print("Time now: " + currenttimeformated)
+  print("Expires: " + expireytimeformated)
+  charge = 10.00
+  print("charge: " + str(charge))
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
