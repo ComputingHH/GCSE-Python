@@ -1,1 +1,26 @@
+#a
+
+import time
+print("lift off in...")
+for number in range(10, 0, -1):
+  print(str(number) + "  ")
+  time.sleep(1)
+  
+#b 
+
+my_list = input("Please enter five numbers separated by a single space only")
+my_list = my_list.split(' ')
+  
+total = 0
+
+for number in my_list:
+  number = int(number)
+  total += number
+  print(total)
+  
+print("The final total is " + str(total))
+average = total / 5
+print("The average is " + str(average))
+
+
 
