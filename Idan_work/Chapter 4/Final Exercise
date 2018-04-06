@@ -1,0 +1,45 @@
+#1
+
+import random
+
+total = 0
+for i in range(1,10):
+  i = random.randint(1,10)
+  print(str(i))
+  total += i
+print (str(total))
+
+#2
+
+import random
+total = 0
+summ = 0
+average = 0 
+for g in range(0,1000):
+  for i in range(0,10):
+    i = random.randint(0,10)
+    total+= i 
+    summ += total 
+    
+average = summ / 10000
+
+print (str(total))
+
+#3
+
+totalAB = 0
+total00 = 0
+code = input("enter product code, -1 to finish: ")
+First2 = code[0:2]
+
+while First2 != "-1":
+  last2 = code[3:5]
+  if First2 == "AB" or First2 == "AS":
+    totalAB += 1
+  if last2 "00":
+    total00 += 1
+  code = input(enter prodcut code: ")
+  first2 = code[0:2]
+  
+print("Total AB or AS = " + total AB)
+print(Total 00 = " + total00)
