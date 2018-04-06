@@ -1,0 +1,16 @@
+testresult = int(input("Please enter test result: "))
+if testresult == -1:
+  print("No input given")
+maxresult = testresult
+minresult = testresult
+
+while testresult != -2:
+  if testresult > maxresult:
+    maxresult = testresult
+  if testresult < minresult:
+    minresult = testresult
+  testresult = int(input("Please enter another test result: "))
+  
+if testresult == -2:
+  print("\nmaximum test result =", maxresult)
+  print("minimum test result =", minresult)
