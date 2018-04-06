@@ -1,1 +1,9 @@
+num1 = input("please enter a number: ")
+num2 = imput("please enter a number: ")
 
+if int(num1) > int(num2):
+  minimum = num2
+else:
+  minimum = num1
+
+print (str(minimum))
