@@ -1,0 +1,7 @@
+sentence = input("Please enter sentence: ")
+
+ePosition = sentence.find("e")
+if ePosition != -1:
+  print("The letter e is first shown in position " + str(ePosition))
+else:
+  print("Sadly there is no e")
