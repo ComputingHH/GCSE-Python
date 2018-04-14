@@ -1,1 +1,3 @@
-
+print (str(10*6  + 5*3))
+print (str(10*(6 + 5) * 3))
+print (str(33 % 7))
